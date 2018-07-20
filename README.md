@@ -95,5 +95,5 @@ To enable users to access the Tomcat manager page, add a user as the role manage
 
 [logo]: https://github.com/w3farid/portfolio/blob/master/static/img/farid-nid.png "Farid Ahmed"
 
-I love Java and open source stuff. Follow him on [Twitter](https://twitter.com/w3farid), or befriend him on [Twitter](https://facebook.com/w3farid). You can hire me any kind of java or web-based application. I have good architecture knowledge.
+I love Java and open source stuff. Follow him on [Twitter](https://twitter.com/w3farid), or befriend him on [Facebook](https://facebook.com/w3farid). You can hire me any kind of java or web-based application. I have good architecture knowledge.
 
