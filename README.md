@@ -88,6 +88,21 @@ To enable users to access the Tomcat manager page, add a user as the role manage
 
 </tomcat-users>
 ```
+-- extend SpringBootServletinitilizer and override the method configure and return builder.sourses(
+```@SpringBootApplication
+public class Application extends SpringBootServletInitializer {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+    
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+    	return builder.sources(Application.class);
+    }
+}
+```
+
 [Tomcat Manager App HOW-TO](https://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html)
 
 ## About the Author
