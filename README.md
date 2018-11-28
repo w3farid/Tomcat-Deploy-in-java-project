@@ -102,6 +102,12 @@ public class Application extends SpringBootServletInitializer {
     }
 }
 ```
+-- pom file
+```<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>```
 
 [Tomcat Manager App HOW-TO](https://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html)
 
